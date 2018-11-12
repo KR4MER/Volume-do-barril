@@ -49,6 +49,8 @@ public class InterfaceBarril extends javax.swing.JPanel {
         jRadioButton2 = new javax.swing.JRadioButton();
         jLabel7 = new javax.swing.JLabel();
 
+        setForeground(new java.awt.Color(255, 0, 0));
+
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         jLabel1.setText("Programa para o cálculo do volume do barril elíptico");
 
@@ -58,12 +60,16 @@ public class InterfaceBarril extends javax.swing.JPanel {
 
         jTextField3.setText("0");
 
+        jLabel2.setForeground(new java.awt.Color(0, 51, 255));
         jLabel2.setText("Diâmetro da tampa (d):");
 
+        jLabel3.setForeground(new java.awt.Color(51, 255, 51));
         jLabel3.setText("Diâmetro do centro (D):");
 
+        jLabel4.setForeground(new java.awt.Color(0, 255, 153));
         jLabel4.setText("Altura (h):");
 
+        jButton1.setForeground(new java.awt.Color(255, 0, 255));
         jButton1.setText("Calcular volume");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -74,7 +80,9 @@ public class InterfaceBarril extends javax.swing.JPanel {
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/barril/barril1.jpg"))); // NOI18N
 
         jTextField4.setEditable(false);
+        jTextField4.setForeground(new java.awt.Color(0, 0, 204));
 
+        jLabel6.setForeground(new java.awt.Color(153, 0, 153));
         jLabel6.setText("Volume do Barril:");
 
         jTextField5.setEditable(false);
